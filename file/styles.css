@@ -1,0 +1,44 @@
+:root {
+    --yellow: #ffd905;
+    --black: #3a4049;
+    --white: #fff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+form {
+    height: 45pt;
+    margin: 15px 0;
+    width: 302.25pt;
+    position: relative;
+}
+
+.integreat_search {
+    border: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    font-size: 17px;
+    position: absolute;
+    border-radius: 25px;
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.23);
+}
+
+.integreat_submit {
+    right: 0;
+    border: 0;
+    height: 100%;
+    width: 93.75pt;
+    font-size: 17px;
+    padding: 5px 10px;
+    position: absolute;
+    border-radius: 25px;
+    background-color: var(--yellow);
+}
+
+.integreat_submit:hover {
+    color: var(--white);
+    background-color: var(--black)
+}
