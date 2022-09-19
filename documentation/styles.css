@@ -1,0 +1,50 @@
+:root {
+    --yellow: #ffd905;
+    --black: #3a4049;
+    --white: #fff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    width: 90%;
+    max-width: 1626px;
+    margin: 0 auto;
+}
+
+.circle {
+    border-radius: 50%;
+    background-color: var(--black);
+    color: var(white);
+}
+
+button {
+    border: 0;
+    padding: 12px 50px;
+    color: var(--black);
+    background-color: var(--yellow);
+}
+
+textarea {
+    width: 100%;
+    resize: none;
+    min-width: 512px;
+    min-height: 200px;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.align-items {
+    display: flex;
+    align-items: center;
+}
